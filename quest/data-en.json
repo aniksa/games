@@ -1,0 +1,27 @@
+{
+    "start": {
+        "title": "title1",
+        "img": "1.jpg",
+        "options": {
+            "1": "page1",
+            "2": "page2",
+            "3": "page1"
+        }
+    },
+    "page1": {
+        "title": "title2",
+        "img": "1.jpg",
+        "options": {
+            "yes": "page1",
+            "no": "page2"
+        }
+    },
+    "page2": {
+        "title": "title3",
+        "img": "1.jpg",
+        "options": {
+            "yes": "page1",
+            "no": "page2"
+        }
+    }
+}

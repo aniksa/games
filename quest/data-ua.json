@@ -1,0 +1,67 @@
+{
+  "start": {
+    "title": "Котик прокидається в темному домі. Дослідити коридор?",
+    "img": "dark_house.jpg",
+    "options": {
+      "заходь до дому": "hall",
+      "виходь": "basement",
+      "йди у дзеркало": "mirror"
+    }
+  },
+  "hall": {
+    "title": "У коридорі чути шурхіт. Котик бачить тінь. Перевірити?",
+    "img": "dark_hall.jpg",
+    "options": {
+      "yes": "mirror",
+      "no": "attic"
+    }
+  },
+  "basement": {
+    "title": "У підвалі холодно. Там дверцята шафи відкриті. Зазирнути?",
+    "img": "basement.jpg",
+    "options": {
+      "yes": "ghost",
+      "no": "attic"
+    }
+  },
+  "mirror": {
+    "title": "Котик бачить у дзеркалі іншого кота з червоними очима. Торкнутися?",
+    "img": "mirror.jpg",
+    "options": {
+      "yes": "curse",
+      "no": "attic"
+    }
+  },
+  "attic": {
+    "title": "На горищі чути шипіння. Котик знаходить стару іграшку. Взяти?",
+    "img": "attic.jpg",
+    "options": {
+      "yes": "curse",
+      "no": "escape"
+    }
+  },
+  "ghost": {
+    "title": "З шафи виходить примарний кіт. Він кличе гратися. Підійти?",
+    "img": "ghost_cat.jpg",
+    "options": {
+      "yes": "curse",
+      "no": "escape"
+    }
+  },
+  "curse": {
+    "title": "Котик піддається прокляттю і стає частиною будинку назавжди. Жахливий фінал!",
+    "img": "curse.jpg",
+    "options": {
+      "yes": "start",
+      "no": "escape"
+    }
+  },
+  "escape": {
+    "title": "Котик вибігає з дому і рятується від темряви. Щасливий фінал!",
+    "img": "escape.jpg",
+    "options": {
+      "yes": "start",
+      "no": "hall"
+    }
+  }
+}
